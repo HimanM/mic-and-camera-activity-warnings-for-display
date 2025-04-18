@@ -1,0 +1,7 @@
+comtypes==1.4.10
+opencv_python==4.11.0.86
+psutil==6.0.0
+pycaw==20240210
+pywin32==306
+screeninfo==0.8.1
+WMI==1.5.1

@@ -98,8 +98,8 @@ def detect_main():
     cam_running = match_running_processes(cam_apps)
     isCameraInUse = len(cam_running) > 0
 
-    print_grouped_results("Microphone", mic_running)
-    print_grouped_results("Camera", cam_running)
+    # print_grouped_results("Microphone", mic_running)
+    # print_grouped_results("Camera", cam_running)
 
     # Export or return if needed
     return {
@@ -111,7 +111,6 @@ def detect_main():
 def check_camera_and_mic_status():
     result = detect_main()
     is_cam, is_mic = result['isCameraInUse'], result['isMicrophoneInUse']
-    time.sleep(5)
     return is_cam, is_mic
 
 

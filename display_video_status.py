@@ -187,7 +187,7 @@ class VideoMonitorApp:
             cap.release()
         cv2.destroyAllWindows()
 
-if __name__ == "__main__":
+def main():
     root = tk.Tk()
     app = VideoMonitorApp(root)
     root.mainloop()
